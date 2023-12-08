@@ -1,7 +1,7 @@
 import "../sass/_menu.scss";
 function Menu(): JSX.Element {
-  const dataArr: [] = [
-    
+  const dataArr: Object[] = [
+    {}
   ];
   return (
     <>
