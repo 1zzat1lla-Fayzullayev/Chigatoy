@@ -1,5 +1,8 @@
 import "../sass/_menu.scss";
 function Menu(): JSX.Element {
+  const dataArr: [] = [
+    
+  ];
   return (
     <>
       <div className="container menu">
