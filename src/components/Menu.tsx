@@ -1,7 +1,6 @@
 import "../sass/_menu.scss";
 import CODE from "../CODE";
 function Menu(): JSX.Element {
-
   return (
     <>
       <div className="container menu">
