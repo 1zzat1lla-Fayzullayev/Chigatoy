@@ -1,8 +1,7 @@
 import "../sass/_menu.scss";
+import CODE from "../CODE";
 function Menu(): JSX.Element {
-  const dataArr: [] = [
-    
-  ];
+
   return (
     <>
       <div className="container menu">
@@ -14,17 +13,19 @@ function Menu(): JSX.Element {
           equipment, Skills to manage Customers
         </p>
         <div className="row">
-          <div className="col">
-            <div className="food_card">
-              <div className="card_image"></div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col"></div>
-        </div>
-        <div className="row">
-          <div className="col"></div>
+          {
+            CODE.menu.map((menu, i) => {
+              return (
+                <div className="col-12 col-md-4" key={i}>
+                  <div className="card food_card">
+                    <div className="card-img">
+                      <img src={menu.image} alt="404" />
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
     </>
