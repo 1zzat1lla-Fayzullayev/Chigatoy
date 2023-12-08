@@ -29,219 +29,215 @@ import shorva9 from "./assets/shorva9.jpg";
 export default {
   menu: [
     {
-      name: "Vegie Muffen",
+      name: "Салат Японский",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО,ЖАРЕНЫЙ ЛУК,ЧЕСНОК, ОГУРЕЦ, ПОМИДОР,БОЛГАРСКИЙ ПЕРЕЦ ,КРАСНЫЙ ПЕРЕЦ,ЧЕРНЫЙ ПЕРЕЦ,COLЛЬGO'SHT, QOVURILGAN PIYOZ, SARIMSOQ, BODRING, POMIDOR, BOLGAR QALAMPIRI, QIZIL QALAMPIR, QORA MURCH, TUZ",
+      price: 35,
       image: salat1,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Селёдка",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "СЕЛЁДКА, ОТВАРНОЙ КАРТОФЕЛЬ, МОРКОВЬ ОТВАРНОЙ, ЛУК ,ПЕРЕЦ И СОЛЬSELD, QAYNATILGAN KARTOSHKA, QAYNATILGAN SABZI, PIYOZ, QALAMPIR VA TUZ",
+      price: 35,
       image: salat2,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Cмак",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "ПОМИДОР, СЫР, БЕЛЫЙ ХЛЕБ, ЧЕСНОК, МАЙОНЕЗ, УКРОП, ПЕРЕЦ, СОЛЬ, POMIDOR, PISHLOQ, OQ NON, SARIMSOQ, MAYONEZ, ARPABODIYON, QALAMPIR, TUZ",
+      price: 35,
       image: salat3,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
+      name: "Сузьма",
+      description: "Сузьма, Suzma",
       price: 10,
       image: salat4,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Аччик чучук",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "Помидор зелень лук специи Pomidor ko'katlar piyoz ziravorlar",
+      price: 15,
       image: salat5,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
+      name: "Соленья",
+      description: "Соленья",
       price: 10,
       image: salat6,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+      name: "Свежее ассорти",
+      description: "Помидоры и огурцы Pomidor va bodring",
+      price: 15,
       image: salat7,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+      name: "Салат Мужской капри",
+      description: "Салат Мужской каприз",
+      price: 35,
       image: salat8,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Оливье",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "ОТВАРНОЕ МЯСО,ОТВАРНОЙ КАРТОФЕЛЬ,МОРКОВЬ, ОГУРЦЫ,ЗЕЛЕНЫЙ ГОРОШЕК, МАЙОНЕЗ QAYNATILGAN GO'SHT, QAYNATILGAN KARTOSHKA, SABZI, BODRING, YASHIL NO'XAT, MAYONEZ",
+      price: 35,
       image: salat9,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "БЕДАНА ШУРВА",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik1,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik2,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik3,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik4,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik5,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik6,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik7,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik8,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
-      image: shashlik9,
-      rating: 5,
-    },
-    {
-      name: "Vegie Muffen",
-      description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "БЕДАНА(ПЕРЕПЕЛКА), КАРТОШКА, МОРКОВЬ,СОЛЬ BEDANA (BEDANA), KARTOSHKA, SABZI, TUZ",
+      price: 45,
       image: shorva1,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "МАМПАР",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО ГОВЯДИНЫ, ЧЕСНОК, ЛУК,  , ТОМАТ, БАСАЙ, КАБАЧКИ,  БАЛГАРСКИЙ , СОЛЬ, ТЕСТО МАМПАР. MOL GO'SHTI, SARIMSOQ, PIYOZ, POMIDOR, BASAY, QOVOQ, BALGAR, TUZ, MAMPAR XAMIRI.",
+      price: 30,
       image: shorva2,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Лагман",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО ГОВЯДИНЫ, БАСАЙ, КОБАЧКИ, ЧИСНОК, БАЛГАРСКИЙ, , ТОМАТЫ, ПЕРЕЦ, СОЛЬ MOL GO'SHTI, BASAY, KOBACHKI, CHISNOK, BALGARSKIY, POMIDOR, QALAMPIR, TUZ",
+      price: 30,
       image: shorva3,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Мастава",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО ГОВЯДИНЫ И БАРАНИНЫ, КАРТОШКА, МОРКОВЬ, ТОМАТЫ, ЧЕСНОК, БАЛГАРСКИЙ, РИС, ПЕРЕЦ И СОЛЬ. MOL GO'SHTI VA QO'ZICHOQ GO'SHTI, KARTOSHKA, SABZI, POMIDOR, SARIMSOQ, BALGAR, GURUCH, QALAMPIR VA TUZ.",
+      price: 30,
       image: shorva4,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Шурва",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО БАРАНИНЫ, КАРТОШКА, МОРКОВЬ QO'ZI GO'SHTI, KARTOSHKA, SABZI",
+      price: 45,
       image: shorva5,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Жаркое",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "МЯСО ГОВЯДИНЫ, КАРТОШКА, ПЕРЕЦ И СОЛЬ MOL GO'SHTI, KARTOSHKA, QALAMPIR VA TUZ",
+      price: 60,
       image: shorva6,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Казан кебоб",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "Казан кабоб",
+      price: 60,
       image: shorva7,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Тушёнка",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "Тушёнка",
+      price: 60,
       image: shorva8,
       rating: 5,
     },
     {
-      name: "Vegie Muffen",
+      name: "Нарын с казы",
       description:
-        "There are many things are needed to start the Fast Food Business.",
-      price: 10,
+        "Нарын с казы Qozidan Norin",
+      price: 0,
       image: shorva9,
+      rating: 5,
+    },
+    {
+      name: "Шашлык из конины",
+      description:
+        "Шашлык из конины Qazi kabob",
+      price: 18,
+      image: shashlik1,
+      rating: 5,
+    },
+    {
+      name: "Шашлык говяжий кусковой",
+      description:
+        "Шашлык говяжий кусковой Jaz kabob mol gosht 1 dona",
+      price: 18,
+      image: shashlik2,
+      rating: 5,
+    },
+    {
+      name: "Шашлык из баранины кусковой",
+      description:
+        "Шашлык из баранины кусковой 1 шт. Jaz qoy goshtli kabob 1 dona",
+      price: 18,
+      image: shashlik3,
+      rating: 5,
+    },
+    {
+      name: "Рулет кусковой",
+      description:
+        "Рулет кусковой  1 шт. Jiz kabob 1 dona",
+      price: 30,
+      image: shashlik4,
+      rating: 5,
+    },
+    {
+      name: "Шашлык молотый",
+      description:
+        "Шашлык молотый 1 шт. Qiyma kabob 1 dona",
+      price: 18,
+      image: shashlik5,
+      rating: 5,
+    },
+    {
+      name: "Шашлык три панжа",
+      description:
+        "Шашлык три панжа Uch panja kabob",
+      price: 65,
+      image: shashlik6,
+      rating: 5,
+    },
+    {
+      name: "Шашлык из курицы",
+      description:
+        "Шашлык из курицы 1 шт. Tovuq kaboblari 1 dona.",
+      price: 18,
+      image: shashlik7,
+      rating: 5,
+    },
+    {
+      name: "Шашлык из сома",
+      description:
+        "Шашлык из сома 1 шт. Baliq kaboblari 1 dona.",
+      price: 18,
+      image: shashlik8,
+      rating: 5,
+    },
+    {
+      name: "Шашлык из печени",
+      description:
+        "Шашлык из печени 1 шт Jigar kabob 1 dona ",
+      price: 18,
+      image: shashlik9,
       rating: 5,
     },
   ],

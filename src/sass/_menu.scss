@@ -1,42 +1,20 @@
-// .menu {
-//   padding-top: 20vh;
-//   .menu_p {
-//     color: #dc780b;
-//     text-align: center;
-//     font-family: Roboto;
-//     font-size: 16px;
-//     font-weight: 500;
-//     line-height: 24px;
-//     letter-spacing: 3.2px;
-//     text-transform: uppercase;
-//   }
-//   p {
-//     text-align: center;
-//   }
-//   h3 {
-//     text-align: center;
-//   }
-//   .menu_col {
-//     border-radius: 75px 10px 10px 10px;
-//     border: 1px solid rgba(0, 0, 0, 0.1);
-//     background: #fff;
-//     .card-img {
-//       img {
-//         overflow: hidden;
-//         width: 458px;
-//         height: 306px;
-//         flex-shrink: 0;
-//         flex-shrink: 0;
-//       }
-//     }
-//   }
-// }
-
+.menu_ota {
+  margin-top: 20vh;
+  .menu_p {
+    color: #dc780b;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+}
 .menu {
-  width: 100%;
   padding: 50px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap !important;
 }
 .menu_box {
@@ -53,8 +31,8 @@
 }
 
 .menu .menu_box .menu_card {
-  width: 300px;
-  height: 420px;
+  width: 270px;
+  height: 347px;
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -62,20 +40,23 @@
   .menu_info {
     position: relative;
     height: 50%;
-    .priceandbtn {
-      margin: 20px;
+    button{
+      margin: auto;
+      border: none;
+      color: black;
+      background-color: rgba(206, 196, 196, 0.24);
+      width: 100%;
+      border-radius: 10px;
       position: absolute;
-      width: 85%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      bottom: 35%;
+      padding: 7px;
     }
   }
 }
 
 .menu .menu_box .menu_card .menu_image {
-  width: 300px;
-  height: 245px;
+  width: 270px;
+  height: 225px;
   margin: 0 auto;
   overflow: hidden;
   cursor: pointer;
@@ -94,11 +75,11 @@
   transform: scale(1.1);
 }
 
-.menu .menu_box .menu_card .menu_info h2 {
+.menu .menu_box .menu_card .menu_info h4 {
   width: 60%;
   text-align: center;
   margin: 10px auto 10px auto;
-  font-size: 25px;
+  font-size: 20px;
   color: #ff511c;
 }
 

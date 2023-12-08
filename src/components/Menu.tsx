@@ -14,7 +14,7 @@ function Menu(): JSX.Element {
         <div className="row menu">
           {CODE.menu.map((menu, i) => {
             return (
-              <div className="col-12 col-md-4 menu_col" key={i}>
+              <div className="col-lg-3 col-md-5 col-sm-12 menu_col" key={i}>
                 <div className="menu-box">
                   <div className="menu_box">
                     <div className="menu_card">
@@ -27,10 +27,10 @@ function Menu(): JSX.Element {
                       </div>
 
                       <div className="menu_info">
-                        <h2>{menu.name}</h2>
-                        <p>{menu.description}</p>
+                        <h4>{menu.name}</h4>
+                        {/* <p>{menu.description}</p> */}
                         <div className="priceandbtn">
-                          <h3>${menu.price}</h3>
+                          <button>{menu.price},000 сум</button>
                           <i className="bx bxs-plus-circle"></i>
                         </div>
                       </div>
