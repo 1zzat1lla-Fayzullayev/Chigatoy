@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import chigatoy from "../assets/chigatoy.jpg";
 import exit from "../assets/exit_sign.png";
+import bag from "../assets/bag.png";
 import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 function Navbar(): JSX.Element {
@@ -107,11 +108,39 @@ function Navbar(): JSX.Element {
                   onClick={handleLogout}
                   title="log out"
                 />
+                <img
+                  src={bag}
+                  alt="404"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                />
               </div>
             )}
           </div>
         </div>
       </nav>
+      
+      {/* Shopping bag */}
+      <div
+        className="offcanvas offcanvas-end"
+        tabIndex={-1}
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title" id="offcanvasRightLabel">
+            Shopping bag
+          </h5>
+          <button
+            type="button"
+            className="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div className="offcanvas-body">...</div>
+      </div>
 
       {/* Login page */}
       {show ? (
