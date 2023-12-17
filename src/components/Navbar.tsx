@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import chigatoy from "../assets/chigatoy.jpg";
-import bag from "../assets/shopping_bag.gif"
+import bag from "../assets/shopping_bag.gif";
 import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 function Navbar(): JSX.Element {
@@ -58,13 +58,8 @@ function Navbar(): JSX.Element {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-<<<<<<< HEAD
               <li className="nav-item">
                 <a className="nav-link active" href="#heroaria">
-=======
-              <li className="nav-item" id="home">
-                <a className="nav-link active" href="#home">
->>>>>>> a0640ee12305520a8dfc13d407707f5d50819ea7
                   Home
                 </a>
               </li>
@@ -99,7 +94,6 @@ function Navbar(): JSX.Element {
                   <span className="hi">Hi,</span> {name ? name : "aa"}
                 </h4>
                 <div className="shapaloq">👋🏻</div>
-                
               </div>
             )}
           </div>
