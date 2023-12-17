@@ -5,7 +5,10 @@ function HeroAria(): JSX.Element {
   return (
     <>
       <div id="heroaria">
-        <img src={down} alt="404" className="down" />
+        <a href="#down">
+          <img src={down} alt="404" className="down" />
+        </a>
+
         <div className="container hereAria" id="login">
           <div className="row hereAria_row">
             <div className="col-lg-6 col-md-4 col-sm-12">

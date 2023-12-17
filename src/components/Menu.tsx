@@ -6,7 +6,7 @@ function Menu(): JSX.Element {
   return (
     <>
       <span id="menu"></span>
-      <span></span>
+      <span id="down"></span>
       <div>
         <div className="container menu_ota">
           <p className="menu_p">MENU</p>
