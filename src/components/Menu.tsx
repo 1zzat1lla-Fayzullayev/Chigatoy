@@ -4,7 +4,7 @@ import SHORVA from "../ts/SHORVA";
 import SHASHLIK from "../ts/SHASHLIK";
 function Menu(): JSX.Element {
   return (
-    <>
+    <div id="menu">
       <div className="container menu_ota">
         <p className="menu_p">MENU</p>
         <h3>Food Full of treaty Love</h3>
@@ -103,7 +103,7 @@ function Menu(): JSX.Element {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

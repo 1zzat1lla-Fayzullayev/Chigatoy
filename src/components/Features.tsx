@@ -5,7 +5,7 @@ import supaerpaste from "../assets/Group 93.svg";
 import vektor from "../assets/Vector 3.png";
 function Features(): JSX.Element {
   return (
-    <>
+    <div id="features">
       <img src={vektor} alt="404" className="vektor" />
       <div className="container features">
         <p className="features_p">FEATURES</p>
@@ -49,7 +49,7 @@ function Features(): JSX.Element {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

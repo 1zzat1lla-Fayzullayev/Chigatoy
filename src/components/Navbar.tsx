@@ -58,28 +58,33 @@ function Navbar(): JSX.Element {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+<<<<<<< HEAD
+              <li className="nav-item">
+                <a className="nav-link active" href="#heroaria">
+=======
               <li className="nav-item" id="home">
                 <a className="nav-link active" href="#home">
+>>>>>>> a0640ee12305520a8dfc13d407707f5d50819ea7
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#aboutus">
                   About us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#menu">
                   Menu
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#features">
                   Features
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#contact">
                   Contact us
                 </a>
               </li>

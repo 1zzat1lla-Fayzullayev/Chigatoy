@@ -2,7 +2,7 @@ import "../sass/_aboutus.scss";
 import aboutus from "../assets/FmlS61J9LP 1.png";
 function AboutUs():JSX.Element {
   return (
-    <div>
+    <div id="aboutus">
       <div className="container aboutus">
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-12">
