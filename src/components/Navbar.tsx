@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import chigatoy from "../assets/chigatoy.jpg";
-import bag from "../assets/shopping_bag.gif";
+import exit from "../assets/exit_sign.png";
 import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 function Navbar(): JSX.Element {
@@ -38,6 +38,13 @@ function Navbar(): JSX.Element {
     setHasLogined(true);
     setShow(false);
     setName(data.username);
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem("logined");
+    setHasLogined(false);
+    setShow(false);
+    setName("");
   };
 
   return (
@@ -94,6 +101,12 @@ function Navbar(): JSX.Element {
                   <span className="hi">Hi,</span> {name ? name : "aa"}
                 </h4>
                 <div className="shapaloq">👋🏻</div>
+                <img
+                  src={exit}
+                  alt="404"
+                  onClick={handleLogout}
+                  title="log out"
+                />
               </div>
             )}
           </div>
