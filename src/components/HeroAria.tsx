@@ -3,7 +3,7 @@ import down from "../assets/down.png";
 import shashlik from "../assets/shashlik.png";
 function HeroAria(): JSX.Element {
   return (
-    <>
+    <div id='heroaria'>
       <img src={down} alt="404" className="down" />
       <div className="container hereAria" id="hereAria">
         <div className="row hereAria_row">
@@ -26,7 +26,7 @@ function HeroAria(): JSX.Element {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
