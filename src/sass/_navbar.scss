@@ -45,6 +45,10 @@
 .login {
   background-color: #dc780b;
   color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   width: 155px;
   height: 40px;
@@ -74,6 +78,7 @@
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  z-index: 777;
 }
 
 .login-box h2 {

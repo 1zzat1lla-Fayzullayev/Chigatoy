@@ -64,6 +64,11 @@ function Navbar(): JSX.Element {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link active" href="#features">
+                  Features
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" href="#aboutus">
                   About us
                 </a>
@@ -74,20 +79,15 @@ function Navbar(): JSX.Element {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#features">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
                 <a className="nav-link active" href="#contact">
                   Contact us
                 </a>
               </li>
             </ul>
             {!hasLogined ? (
-              <button className="login" onClick={() => setShow(true)}>
+              <a className="login" onClick={() => setShow(true)} href="#login">
                 Login
-              </button>
+              </a>
             ) : (
               <div className="shapaloq_div">
                 <h4>

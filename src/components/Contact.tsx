@@ -2,7 +2,7 @@ import "../sass/_contact.scss";
 function Contact() {
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="contact_divs">
           <div className="contact_texts">
             <h3 className="contact_h3">CONTACT</h3>
