@@ -57,8 +57,8 @@ function Navbar(): JSX.Element {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
+              <li className="nav-item" id="home">
+                <a className="nav-link active" href="#home">
                   Home
                 </a>
               </li>
