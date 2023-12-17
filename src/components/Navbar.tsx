@@ -55,6 +55,7 @@ function Navbar(): JSX.Element {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <img src={chigatoy} alt="404" className="navbar_logo" />
+
           <button
             className="navbar-toggler"
             type="button"
@@ -66,6 +67,14 @@ function Navbar(): JSX.Element {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+          <img
+            src={bag}
+            alt="404"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            className="bag_btn"
+          />
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">

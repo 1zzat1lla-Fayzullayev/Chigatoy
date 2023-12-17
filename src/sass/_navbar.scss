@@ -39,9 +39,24 @@
     .hi {
       color: #dc780b;
     }
-    img{
+    img {
       width: 60px;
       cursor: pointer;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .shapaloq_div {
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) { 
+  .shapaloq_div {
+    img {
+      display: none;
     }
   }
 }
