@@ -4,6 +4,8 @@ import exit from "../assets/exit_sign.png";
 import bag from "../assets/bag.png";
 import x from "../assets/x.png";
 import "../sass/_navbar.scss";
+import "../sass/_navbarcart.scss";
+import ALL from "../ts/ALL";
 function Navbar(): JSX.Element {
   const [show, setShow] = useState<boolean>(false);
   const [hasLogined, setHasLogined] = useState<boolean>(false);
@@ -120,7 +122,7 @@ function Navbar(): JSX.Element {
           </div>
         </div>
       </nav>
-      
+
       {/* Shopping bag */}
       <div
         className="offcanvas offcanvas-end"
@@ -139,7 +141,19 @@ function Navbar(): JSX.Element {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body">...</div>
+        <div className="offcanvas-body">
+          {ALL.menu.map((cart, i) => {
+            return (
+              <div className="cart_item" key={i}>
+                <div className="cart_info">
+                  <h4>{cart.name}</h4>
+                  <h3>{cart.price},000 so'm</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <button className="buy_now">Buy now</button>
       </div>
 
       {/* Login page */}
