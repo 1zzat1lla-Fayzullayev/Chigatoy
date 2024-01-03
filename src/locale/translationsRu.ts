@@ -6,6 +6,7 @@ const translationsRu = {
   contact: "Связаться с нами",
   hi: "Привет",
   exit: "Выход",
+  heroariaH1: "Сделайте время приятным, приготовив еду хорошей едой."
 };
 
 export default translationsRu;

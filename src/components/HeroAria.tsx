@@ -1,7 +1,7 @@
 import "../sass/_heroaria.scss";
 import down from "../assets/down.png";
 import shashlik from "../assets/shashlik.png";
-function HeroAria(): JSX.Element {
+function HeroAria({ changeLang }: NavbarProps): JSX.Element {
   return (
     <>
       <div id="heroaria">

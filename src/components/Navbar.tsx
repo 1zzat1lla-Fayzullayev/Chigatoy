@@ -5,9 +5,7 @@ import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 import "../sass/_navbarcart.scss";
 import { useTranslation } from "react-i18next";
-interface NavbarProps {
-  changeLang: (v: any) => void;
-}
+
 
 function Navbar({ changeLang }: NavbarProps): JSX.Element {
   const [show, setShow] = useState<boolean>(false);

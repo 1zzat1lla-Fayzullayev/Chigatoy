@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 import HeroAria from "./components/HeroAria";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
-import translationsEng from "./components/locale/translationsEng";
-import translationsRu from "./components/locale/translationsRu";
+import translationsEng from "./locale/translationsEng";
+import translationsRu from "./locale/translationsRu";
 import "./sass/style.scss";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import translationsUz from "./components/locale/translationsUz";
+import translationsUz from "./locale/translationsUz";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -23,13 +23,15 @@ i18n.use(initReactI18next).init({
 });
 
 function App() {
+
   const changeLang = (v: any): void => {
     i18n.changeLanguage(v);
   };
+
   return (
     <div>
       <Navbar changeLang={changeLang} />
-      <HeroAria />
+      <HeroAria changeLang={changeLang}/>
       <Features />
       <AboutUs />
       <Menu />
