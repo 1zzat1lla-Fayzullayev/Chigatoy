@@ -82,27 +82,27 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" href="#heroaria">
-                  {t("home")}
+                  {t("navbar.home")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#features">
-                  {t("features")}
+                  {t("navbar.features")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#aboutus">
-                  {t("about")}
+                  {t("navbar.about")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#menu">
-                  {t("menu")}
+                  {t("navbar.menu")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#contact">
-                  {t("contact")}
+                  {t("navbar.contact")}
                 </a>
               </li>
               <li className="nav-item">
@@ -120,10 +120,10 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
             ) : (
               <div className="shapaloq_div">
                 <h4>
-                  <span className="hi">{t("hi")},</span> {name ? name : "aa"}
+                  <span className="hi">{t("navbar.hi")},</span> {name ? name : "aa"}
                 </h4>
                 <div className="shapaloq">👋🏻</div>
-                <button onClick={handleLogout}>{t("exit")}</button>
+                <button onClick={handleLogout}>{t("navbar.exit")}</button>
                 <img
                   src={bag}
                   alt="404"

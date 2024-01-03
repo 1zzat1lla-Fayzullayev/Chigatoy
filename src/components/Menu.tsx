@@ -2,24 +2,20 @@ import "../sass/_menu.scss";
 import SALAT from "../ts/SALAT";
 import SHORVA from "../ts/SHORVA";
 import SHASHLIK from "../ts/SHASHLIK";
-
+import { useTranslation } from "react-i18next";
 
 function Menu(): JSX.Element {
+  const { t } = useTranslation();
   return (
     <>
       <span id="menu"></span>
       <span id="down"></span>
       <div>
         <div className="container menu_ota">
-          <p className="menu_p">MENU</p>
-          <h3>Food Full of treaty Love</h3>
-          <p>
-            There are many things are needed to start the Fast Food Business.
-            You need not only Just Food Stalls with Persons but also specialized
-            equipment, Skills to manage Customers
-          </p>
+          <p className="menu_p">{t("menu.menuMenu")}</p>
+          <h3>{t("menu.foods")}</h3>
           <div className="row menu">
-            <h1>Salat</h1>
+            <h1>{t("menu.salad")}</h1>
             {SALAT.menu.map((menu, i) => {
               return (
                 <div className="col-lg-3 col-md-5 col-sm-12 menu_col" key={i}>
@@ -48,7 +44,7 @@ function Menu(): JSX.Element {
                 </div>
               );
             })}
-            <h1>Shorva</h1>
+            <h1>{t("menu.soup")}</h1>
             {SHORVA.shorva.map((menu, i) => {
               return (
                 <div className="col-lg-3 col-md-5 col-sm-12 menu_col" key={i}>
@@ -77,7 +73,7 @@ function Menu(): JSX.Element {
                 </div>
               );
             })}
-            <h1>Shashlik</h1>
+            <h1>{t("menu.shashlik")}</h1>
             {SHASHLIK.shashlik.map((menu, i) => {
               return (
                 <div className="col-lg-3 col-md-5 col-sm-12 menu_col" key={i}>

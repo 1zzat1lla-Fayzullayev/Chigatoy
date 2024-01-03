@@ -27,11 +27,10 @@ function App() {
   const changeLang = (v: any): void => {
     i18n.changeLanguage(v);
   };
-
   return (
     <div>
       <Navbar changeLang={changeLang} />
-      <HeroAria changeLang={changeLang}/>
+      <HeroAria />
       <Features />
       <AboutUs />
       <Menu />

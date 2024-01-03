@@ -4,13 +4,60 @@
   .features_p {
     color: #dc780b;
   }
-  .img_div_features{
+  .img_div_features {
     margin-top: 20px;
+  }
+  .features_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .quality_food {
+      border-radius: 50px;
+      background-color: rgba(255, 0, 0, 0.055);
+      padding: 50px;
+      cursor: pointer;
+    }
+    .food_delivery {
+      border-radius: 50px;
+      background-color: rgba(255, 0, 0, 0.055);
+      padding: 50px;
+      cursor: pointer;
+    }
+    .super_taste {
+      border-radius: 50px;
+      background-color: rgba(255, 0, 0, 0.055);
+      padding: 50px;
+      cursor: pointer;
+    }
   }
 }
 
-.vektor{
-    position: absolute;
-    top: 0;
-    z-index: -1;
+@media screen and (max-width: 768px) {
+  .quality_food {
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.055);
+    padding: 30px;
+    cursor: pointer;
+  }
+  .food_delivery {
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.055);
+    padding: 50px;
+    cursor: pointer;
+  }
+  .super_taste {
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.055);
+    padding: 50px;
+    cursor: pointer;
+  }
+}
+
+.vektor {
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
