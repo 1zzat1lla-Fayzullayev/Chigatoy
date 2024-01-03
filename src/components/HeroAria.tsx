@@ -17,7 +17,7 @@ function HeroAria(): JSX.Element {
                 <p>
                   There are many things are needed to start the Fast Food
                   Business. You need not only Just Food Stalls with Persons but
-                  also specialized equipment,
+                  also specialized equipment
                 </p>
                 <div className="hero_aria_btns">
                   <button className="order_now">Oder now</button>

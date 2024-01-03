@@ -28,6 +28,7 @@ import shorva9 from "../assets/shorva9.jpg";
 export default {
   menu: [
     {
+      id: 1,
       name: "Салат Японский",
       description:
         "МЯСО,ЖАРЕНЫЙ ЛУК,ЧЕСНОК, ОГУРЕЦ, ПОМИДОР,БОЛГАРСКИЙ ПЕРЕЦ ,КРАСНЫЙ ПЕРЕЦ,ЧЕРНЫЙ ПЕРЕЦ,COLЛЬGO'SHT, QOVURILGAN PIYOZ, SARIMSOQ, BODRING, POMIDOR, BOLGAR QALAMPIRI, QIZIL QALAMPIR, QORA MURCH, TUZ",
@@ -36,6 +37,7 @@ export default {
       rating: 5,
     },
     {
+      id: 2,
       name: "Селёдка",
       description:
         "СЕЛЁДКА, ОТВАРНОЙ КАРТОФЕЛЬ, МОРКОВЬ ОТВАРНОЙ, ЛУК ,ПЕРЕЦ И СОЛЬSELD, QAYNATILGAN KARTOSHKA, QAYNATILGAN SABZI, PIYOZ, QALAMPIR VA TUZ",
@@ -44,6 +46,7 @@ export default {
       rating: 5,
     },
     {
+      id: 3,
       name: "Cмак",
       description:
         "ПОМИДОР, СЫР, БЕЛЫЙ ХЛЕБ, ЧЕСНОК, МАЙОНЕЗ, УКРОП, ПЕРЕЦ, СОЛЬ, POMIDOR, PISHLOQ, OQ NON, SARIMSOQ, MAYONEZ, ARPABODIYON, QALAMPIR, TUZ",
@@ -52,6 +55,7 @@ export default {
       rating: 5,
     },
     {
+      id: 4,
       name: "Сузьма",
       description: "Сузьма, Suzma",
       price: 10,
@@ -59,6 +63,7 @@ export default {
       rating: 5,
     },
     {
+      id: 5,
       name: "Аччик чучук",
       description:
         "Помидор зелень лук специи Pomidor ko'katlar piyoz ziravorlar",
@@ -67,6 +72,7 @@ export default {
       rating: 5,
     },
     {
+      id: 6,
       name: "Соленья",
       description: "Соленья",
       price: 10,
@@ -74,6 +80,7 @@ export default {
       rating: 5,
     },
     {
+      id: 7,
       name: "Свежее ассорти",
       description: "Помидоры и огурцы Pomidor va bodring",
       price: 15,
@@ -81,6 +88,7 @@ export default {
       rating: 5,
     },
     {
+      id: 8,
       name: "Салат Мужской капри",
       description: "Салат Мужской каприз",
       price: 35,
@@ -88,6 +96,7 @@ export default {
       rating: 5,
     },
     {
+      id: 9,
       name: "Оливье",
       description:
         "ОТВАРНОЕ МЯСО,ОТВАРНОЙ КАРТОФЕЛЬ,МОРКОВЬ, ОГУРЦЫ,ЗЕЛЕНЫЙ ГОРОШЕК, МАЙОНЕЗ QAYNATILGAN GO'SHT, QAYNATILGAN KARTOSHKA, SABZI, BODRING, YASHIL NO'XAT, MAYONEZ",
@@ -96,6 +105,7 @@ export default {
       rating: 5,
     },
     {
+      id: 10,
       name: "Шашлык из конины",
       description: "Шашлык из конины Qazi kabob",
       price: 18,
@@ -103,6 +113,7 @@ export default {
       rating: 5,
     },
     {
+      id: 11,
       name: "Шашлык говяжий кусковой",
       description: "Шашлык говяжий кусковой Jaz kabob mol gosht 1 dona",
       price: 18,
@@ -110,6 +121,7 @@ export default {
       rating: 5,
     },
     {
+      id: 12,
       name: "Шашлык из баранины кусковой",
       description:
         "Шашлык из баранины кусковой 1 шт. Jaz qoy goshtli kabob 1 dona",
@@ -118,6 +130,7 @@ export default {
       rating: 5,
     },
     {
+      id: 13,
       name: "Рулет кусковой",
       description: "Рулет кусковой  1 шт. Jiz kabob 1 dona",
       price: 30,
@@ -125,6 +138,7 @@ export default {
       rating: 5,
     },
     {
+      id: 14,
       name: "Шашлык молотый",
       description: "Шашлык молотый 1 шт. Qiyma kabob 1 dona",
       price: 18,
@@ -132,6 +146,7 @@ export default {
       rating: 5,
     },
     {
+      id: 15,
       name: "Шашлык три панжа",
       description: "Шашлык три панжа Uch panja kabob",
       price: 65,
@@ -139,6 +154,7 @@ export default {
       rating: 5,
     },
     {
+      id: 16,
       name: "Шашлык из курицы",
       description: "Шашлык из курицы 1 шт. Tovuq kaboblari 1 dona.",
       price: 18,
@@ -146,6 +162,7 @@ export default {
       rating: 5,
     },
     {
+      id: 17,
       name: "Шашлык из сома",
       description: "Шашлык из сома 1 шт. Baliq kaboblari 1 dona.",
       price: 18,
@@ -153,6 +170,7 @@ export default {
       rating: 5,
     },
     {
+      id: 18,
       name: "Шашлык из печени",
       description: "Шашлык из печени 1 шт Jigar kabob 1 dona ",
       price: 18,
@@ -160,6 +178,7 @@ export default {
       rating: 5,
     },
     {
+      id: 19,
       name: "БЕДАНА ШУРВА",
       description:
         "БЕДАНА(ПЕРЕПЕЛКА), КАРТОШКА, МОРКОВЬ,СОЛЬ BEDANA (BEDANA), KARTOSHKA, SABZI, TUZ",
@@ -168,6 +187,7 @@ export default {
       rating: 5,
     },
     {
+      id: 20,
       name: "МАМПАР",
       description:
         "МЯСО ГОВЯДИНЫ, ЧЕСНОК, ЛУК,  , ТОМАТ, БАСАЙ, КАБАЧКИ,  БАЛГАРСКИЙ , СОЛЬ, ТЕСТО МАМПАР. MOL GO'SHTI, SARIMSOQ, PIYOZ, POMIDOR, BASAY, QOVOQ, BALGAR, TUZ, MAMPAR XAMIRI.",
@@ -176,6 +196,7 @@ export default {
       rating: 5,
     },
     {
+      id: 21,
       name: "Лагман",
       description:
         "МЯСО ГОВЯДИНЫ, БАСАЙ, КОБАЧКИ, ЧИСНОК, БАЛГАРСКИЙ, , ТОМАТЫ, ПЕРЕЦ, СОЛЬ MOL GO'SHTI, BASAY, KOBACHKI, CHISNOK, BALGARSKIY, POMIDOR, QALAMPIR, TUZ",
@@ -184,6 +205,7 @@ export default {
       rating: 5,
     },
     {
+      id: 22,
       name: "Мастава",
       description:
         "МЯСО ГОВЯДИНЫ И БАРАНИНЫ, КАРТОШКА, МОРКОВЬ, ТОМАТЫ, ЧЕСНОК, БАЛГАРСКИЙ, РИС, ПЕРЕЦ И СОЛЬ. MOL GO'SHTI VA QO'ZICHOQ GO'SHTI, KARTOSHKA, SABZI, POMIDOR, SARIMSOQ, BALGAR, GURUCH, QALAMPIR VA TUZ.",
@@ -192,6 +214,7 @@ export default {
       rating: 5,
     },
     {
+      id: 23,
       name: "Шурва",
       description:
         "МЯСО БАРАНИНЫ, КАРТОШКА, МОРКОВЬ QO'ZI GO'SHTI, KARTOSHKA, SABZI",
@@ -200,6 +223,7 @@ export default {
       rating: 5,
     },
     {
+      id: 24,
       name: "Жаркое",
       description:
         "МЯСО ГОВЯДИНЫ, КАРТОШКА, ПЕРЕЦ И СОЛЬ MOL GO'SHTI, KARTOSHKA, QALAMPIR VA TUZ",
@@ -208,6 +232,7 @@ export default {
       rating: 5,
     },
     {
+      id: 25,
       name: "Казан кебоб",
       description: "Казан кабоб",
       price: 60,
@@ -215,6 +240,7 @@ export default {
       rating: 5,
     },
     {
+      id: 26,
       name: "Тушёнка",
       description: "Тушёнка",
       price: 60,
@@ -222,6 +248,7 @@ export default {
       rating: 5,
     },
     {
+      id: 27,
       name: "Нарын с казы",
       description: "Нарын с казы Qozidan Norin",
       price: 0,

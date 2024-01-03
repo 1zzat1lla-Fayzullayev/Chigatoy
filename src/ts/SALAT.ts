@@ -8,10 +8,10 @@ import salat7 from "../assets/salat7.jpg";
 import salat8 from "../assets/salat8.jpg";
 import salat9 from "../assets/salat9.jpg";
 
-
 export default {
   menu: [
     {
+      id: 1,
       name: "Салат Японский",
       description:
         "МЯСО,ЖАРЕНЫЙ ЛУК,ЧЕСНОК, ОГУРЕЦ, ПОМИДОР,БОЛГАРСКИЙ ПЕРЕЦ ,КРАСНЫЙ ПЕРЕЦ,ЧЕРНЫЙ ПЕРЕЦ,COLЛЬGO'SHT, QOVURILGAN PIYOZ, SARIMSOQ, BODRING, POMIDOR, BOLGAR QALAMPIRI, QIZIL QALAMPIR, QORA MURCH, TUZ",
@@ -20,6 +20,7 @@ export default {
       rating: 5,
     },
     {
+      id: 2,
       name: "Селёдка",
       description:
         "СЕЛЁДКА, ОТВАРНОЙ КАРТОФЕЛЬ, МОРКОВЬ ОТВАРНОЙ, ЛУК ,ПЕРЕЦ И СОЛЬSELD, QAYNATILGAN KARTOSHKA, QAYNATILGAN SABZI, PIYOZ, QALAMPIR VA TUZ",
@@ -28,6 +29,7 @@ export default {
       rating: 5,
     },
     {
+      id: 3,
       name: "Cмак",
       description:
         "ПОМИДОР, СЫР, БЕЛЫЙ ХЛЕБ, ЧЕСНОК, МАЙОНЕЗ, УКРОП, ПЕРЕЦ, СОЛЬ, POMIDOR, PISHLOQ, OQ NON, SARIMSOQ, MAYONEZ, ARPABODIYON, QALAMPIR, TUZ",
@@ -36,6 +38,7 @@ export default {
       rating: 5,
     },
     {
+      id: 4,
       name: "Сузьма",
       description: "Сузьма, Suzma",
       price: 10,
@@ -43,6 +46,7 @@ export default {
       rating: 5,
     },
     {
+      id: 5,
       name: "Аччик чучук",
       description:
         "Помидор зелень лук специи Pomidor ko'katlar piyoz ziravorlar",
@@ -51,6 +55,7 @@ export default {
       rating: 5,
     },
     {
+      id: 6,
       name: "Соленья",
       description: "Соленья",
       price: 10,
@@ -58,6 +63,7 @@ export default {
       rating: 5,
     },
     {
+      id: 7,
       name: "Свежее ассорти",
       description: "Помидоры и огурцы Pomidor va bodring",
       price: 15,
@@ -65,6 +71,7 @@ export default {
       rating: 5,
     },
     {
+      id: 8,
       name: "Салат Мужской капри",
       description: "Салат Мужской каприз",
       price: 35,
@@ -72,6 +79,7 @@ export default {
       rating: 5,
     },
     {
+      id: 9,
       name: "Оливье",
       description:
         "ОТВАРНОЕ МЯСО,ОТВАРНОЙ КАРТОФЕЛЬ,МОРКОВЬ, ОГУРЦЫ,ЗЕЛЕНЫЙ ГОРОШЕК, МАЙОНЕЗ QAYNATILGAN GO'SHT, QAYNATILGAN KARTOSHKA, SABZI, BODRING, YASHIL NO'XAT, MAYONEZ",
@@ -79,7 +87,5 @@ export default {
       image: salat9,
       rating: 5,
     },
-
-
   ],
 };

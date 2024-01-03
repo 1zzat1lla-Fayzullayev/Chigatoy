@@ -2,6 +2,8 @@ import "../sass/_menu.scss";
 import SALAT from "../ts/SALAT";
 import SHORVA from "../ts/SHORVA";
 import SHASHLIK from "../ts/SHASHLIK";
+
+
 function Menu(): JSX.Element {
   return (
     <>

@@ -1,20 +1,26 @@
 import { useEffect, useState } from "react";
 import chigatoy from "../assets/chigatoy.jpg";
-import exit from "../assets/exit_sign.png";
 import bag from "../assets/bag.png";
 import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 import "../sass/_navbarcart.scss";
-import ALL from "../ts/ALL";
-function Navbar(): JSX.Element {
+import { useTranslation } from "react-i18next";
+interface NavbarProps {
+  changeLang: (v: any) => void;
+}
+
+function Navbar({ changeLang }: NavbarProps): JSX.Element {
   const [show, setShow] = useState<boolean>(false);
   const [hasLogined, setHasLogined] = useState<boolean>(false);
   const [data, setData] = useState<IData>({
     username: "",
     password: "",
   });
-
   const [name, setName] = useState<string>("");
+  const changeLangHandler = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    changeLang(e.target.value);
+  };
+  const { t } = useTranslation();
 
   useEffect(() => {
     const ifLoggined = localStorage.getItem("logined");
@@ -22,7 +28,6 @@ function Navbar(): JSX.Element {
       setHasLogined(true);
       let aa = JSON.parse(ifLoggined);
       setName(aa.username);
-      console.log(aa.username);
     }
   }, []);
 
@@ -79,28 +84,35 @@ function Navbar(): JSX.Element {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" href="#heroaria">
-                  Home
+                  {t("home")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#features">
-                  Features
+                  {t("features")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#aboutus">
-                  About us
+                  {t("about")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#menu">
-                  Menu
+                  {t("menu")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#contact">
-                  Contact us
+                  {t("contact")}
                 </a>
+              </li>
+              <li className="nav-item">
+                <select onChange={changeLangHandler}>
+                  <option value="eng">English</option>
+                  <option value="ru">Russian</option>
+                  <option value="uz">Uzbek</option>
+                </select>
               </li>
             </ul>
             {!hasLogined ? (
@@ -110,15 +122,10 @@ function Navbar(): JSX.Element {
             ) : (
               <div className="shapaloq_div">
                 <h4>
-                  <span className="hi">Hi,</span> {name ? name : "aa"}
+                  <span className="hi">{t("hi")},</span> {name ? name : "aa"}
                 </h4>
                 <div className="shapaloq">👋🏻</div>
-                <img
-                  src={exit}
-                  alt="404"
-                  onClick={handleLogout}
-                  title="log out"
-                />
+                <button onClick={handleLogout}>{t("exit")}</button>
                 <img
                   src={bag}
                   alt="404"
@@ -151,7 +158,7 @@ function Navbar(): JSX.Element {
           ></button>
         </div>
         <div className="offcanvas-body">
-          {ALL.menu.map((cart, i) => {
+          {/* {ALL.menu.map((cart, i) => {
             return (
               <div className="cart_item" key={i}>
                 <div className="cart_info">
@@ -160,7 +167,7 @@ function Navbar(): JSX.Element {
                 </div>
               </div>
             );
-          })}
+          })} */}
         </div>
         <button className="buy_now">Buy now</button>
       </div>
