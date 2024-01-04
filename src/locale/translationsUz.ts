@@ -12,7 +12,7 @@ const translationsUz = {
     makingTime:
       "Ovqatni yaxshi ovqatga aylantirish orqali vaqtni yaxshi o'tkazish.",
     paragraphs: "Bizda eng xilma-xil va mazali taomlar mavjud.",
-    odernow: "Hoziroq buyurtma bering",
+    odernow: "Buyurtma bering",
     foodDetail: "Oziq-ovqat tafsilotlari",
   },
   features: {
