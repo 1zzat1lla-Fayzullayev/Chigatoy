@@ -45,6 +45,16 @@ const translationsEng = {
     phoneNumber: "Phone number",
     address: "Address",
   },
+  Login: {
+    loginh1: "Login",
+    username: "Username",
+    password: "Password",
+    submit: "Submit",
+  },
+  shoppingBag: {
+    shopingH1: "Shopping bag",
+    shopingbutton: "Buy now",
+  },
 };
 
 export default translationsEng;

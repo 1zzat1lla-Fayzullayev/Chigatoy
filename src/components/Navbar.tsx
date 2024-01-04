@@ -6,7 +6,6 @@ import "../sass/_navbar.scss";
 import "../sass/_navbarcart.scss";
 import { useTranslation } from "react-i18next";
 
-
 function Navbar({ changeLang }: NavbarProps): JSX.Element {
   const [show, setShow] = useState<boolean>(false);
   const [hasLogined, setHasLogined] = useState<boolean>(false);
@@ -115,12 +114,13 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
             </ul>
             {!hasLogined ? (
               <a className="login" onClick={() => setShow(true)} href="#login">
-                Login
+                {t("Login.loginh1")}
               </a>
             ) : (
               <div className="shapaloq_div">
                 <h4>
-                  <span className="hi">{t("navbar.hi")},</span> {name ? name : "aa"}
+                  <span className="hi">{t("navbar.hi")},</span>{" "}
+                  {name ? name : "aa"}
                 </h4>
                 <div className="shapaloq">👋🏻</div>
                 <button onClick={handleLogout}>{t("navbar.exit")}</button>
@@ -146,7 +146,7 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasRightLabel">
-            Shopping bag
+            {t("shoppingBag.shopingH1")}
           </h5>
           <button
             type="button"
@@ -167,13 +167,13 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
             );
           })} */}
         </div>
-        <button className="buy_now">Buy now</button>
+        <button className="buy_now">{t("shoppingBag.shopingbutton")}</button>
       </div>
 
       {/* Login page */}
       {show ? (
         <div className="login-box">
-          <h2 id="hereAria">Login</h2>
+          <h2 id="hereAria">{t("Login.loginh1")}</h2>
           <img src={x} alt="404" onClick={() => setShow(false)} className="x" />
           <form onSubmit={handleSubmit}>
             <div className="user-box">
@@ -183,7 +183,7 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
                 onChange={handleChange}
                 required
               />
-              <label>Username</label>
+              <label>{t("Login.username")}</label>
             </div>
             <div className="user-box">
               <input
@@ -192,14 +192,14 @@ function Navbar({ changeLang }: NavbarProps): JSX.Element {
                 onChange={handleChange}
                 required
               />
-              <label>Password</label>
+              <label>{t("Login.password")}</label>
             </div>
             <button>
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              Submit
+              {t("Login.submit")}
             </button>
           </form>
         </div>

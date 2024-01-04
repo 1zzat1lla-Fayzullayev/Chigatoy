@@ -45,6 +45,16 @@ const translationsRu = {
     phoneNumber: "Номер телефона",
     address: "Адрес",
   },
+  Login: {
+    loginh1: "Авторизоваться",
+    username: "Имя пользователя",
+    password: "Пароль",
+    submit: "Отправка",
+  },
+  shoppingBag: {
+    shopingH1: "Сумка для покупок",
+    shopingbutton: "Купить сейчас",
+  },
 };
 
 export default translationsRu;

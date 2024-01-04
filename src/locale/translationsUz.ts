@@ -46,6 +46,16 @@ const translationsUz = {
     phoneNumber: "Telefon raqam",
     address: "Manzil",
   },
+  Login: {
+    loginh1: "Tizimga kirish",
+    username: "Foydalanuvchi nomi",
+    password: "Parol",
+    submit: "Yuborish",
+  },
+  shoppingBag: {
+    shopingH1: "Bozor haltasi",
+    shopingbutton: "Hozir xarid qilish",
+  },
 };
 
 export default translationsUz;
