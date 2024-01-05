@@ -23,8 +23,7 @@ i18n.use(initReactI18next).init({
 });
 
 function App() {
-
-  const changeLang = (v: any): void => {
+  const changeLang = (v: string): void => {
     i18n.changeLanguage(v);
   };
   return (

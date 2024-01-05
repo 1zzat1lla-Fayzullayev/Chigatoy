@@ -1,5 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 interface NavbarProps {
-    changeLang: (v: any) => void;
-  }
-
-  
+  changeLang: (v: string) => void;
+}

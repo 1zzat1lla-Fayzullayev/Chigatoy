@@ -7,44 +7,54 @@ import "../sass/_navbarcart.scss";
 import { useTranslation } from "react-i18next";
 
 function Navbar({ changeLang }: NavbarProps): JSX.Element {
+  // Login qismini show hide qiluvchi state
   const [show, setShow] = useState<boolean>(false);
+  // Login qilgan yoki qilmaganini bajaruvchi state
   const [hasLogined, setHasLogined] = useState<boolean>(false);
+  // Interface dan malumot qanaqa turdaligini olib kelish
   const [data, setData] = useState<IData>({
     username: "",
     password: "",
   });
+  // Login bo'lgandan keyin qaysi ism bilan login qilsa oshani ekranga chiqaruvchi state
   const [name, setName] = useState<string>("");
+  // Select ni change qilganda til o'zgartiruvchi state
   const changeLangHandler = (e: React.ChangeEvent<HTMLSelectElement>) => {
     changeLang(e.target.value);
   };
+  // Tilni olib olish uchun ishlatilinadi
   const { t } = useTranslation();
 
+  // Login qilish jarayonini tekshiradi agar login qilinsa
+  // ism ekranda ko'rinadi va ba'zi narsalar hide qilib qo'yiladi
   useEffect(() => {
     const ifLoggined = localStorage.getItem("logined");
     if (ifLoggined && JSON.parse(ifLoggined)) {
       setHasLogined(true);
-      let aa = JSON.parse(ifLoggined);
+      const aa = JSON.parse(ifLoggined);
       setName(aa.username);
     }
   }, []);
 
+  // Inputga yozilvotgan paytdagi o'zgarishlar
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
-    let value: string = e.target.value;
-    let name: string = e.target.name;
+    const value: string = e.target.value;
+    const name: string = e.target.name;
     setData({ ...data, [name]: value });
   };
 
+  // Login qilish button bosilganda ishga tushadi
   const handleSubmit = (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(data);
     localStorage.setItem("logined", JSON.stringify(data));
     setHasLogined(true);
     setShow(false);
     setName(data.username);
   };
 
+  // Login qilingandan so'ng undan chiqib ketish ya'ni Log out
   const handleLogout = () => {
     localStorage.removeItem("logined");
     setHasLogined(false);
