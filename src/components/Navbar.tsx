@@ -5,6 +5,7 @@ import x from "../assets/x.png";
 import "../sass/_navbar.scss";
 import "../sass/_navbarcart.scss";
 import { useTranslation } from "react-i18next";
+// import ALL from "../ts/ALL";
 
 function Navbar({ changeLang }: NavbarProps): JSX.Element {
   // Login qismini show hide qiluvchi state
